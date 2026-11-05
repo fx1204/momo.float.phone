@@ -38,6 +38,15 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="float" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="mobile-web-app-capable" content="yes" />
+        <style>
+div[class*="netlify"],
+a[href*="netlify.com"],
+a[aria-label*="Netlify"],
+[data-netlify-widget] {
+  display: none !important;
+}
+</style>
+
       </head>
       <body>
         <PWAManifestInjector />
