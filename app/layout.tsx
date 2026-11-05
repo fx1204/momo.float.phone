@@ -46,7 +46,6 @@ a[aria-label*="Netlify"],
   display: none !important;
 }
 </style>
-
       </head>
       <body>
         <PWAManifestInjector />
