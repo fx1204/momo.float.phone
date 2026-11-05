@@ -225,13 +225,3 @@
 .story-multi-select-bar button:disabled { opacity: .42; }
 .story-multi-select-bar button.is-danger { color: #b84e4e; }
 .story-multi-select-bar .story-multi-select-icon { width: 36px; padding: 0; color: var(--c-story-text, #594d40); background: transparent; }
-/* 隐藏Netlify右下角 Powered by 悬浮水印按钮 */
-div[class*="netlify"],
-a[href*="netlify.com"],
-a[aria-label*="Netlify"],
-button:has([aria-label*="Netlify"]),
-[data-netlify-widget] {
-  display: none !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
-}
